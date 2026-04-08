@@ -89,8 +89,8 @@ This project uses the free [GitHub REST API](https://docs.github.com/en/rest).
 ## 👤 Author
 
 
-- GitHub: [@your_username](https://github.com/samarthtiwari1512-coder)
-- LinkedIn: [your-linkedin](www.linkedin.com/in/samarth-tiwari-28546a28a)
+- GitHub: @samarthtiwari1512-coder](https://github.com/samarthtiwari1512-coder)
+- LinkedIn: [Samarth Tiwari](www.linkedin.com/in/samarth-tiwari-28546a28a)
 
 ---
 
