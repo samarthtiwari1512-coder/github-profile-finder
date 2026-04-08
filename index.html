@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Profile Finder</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Chart.js — for the language pie chart -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ===== HEADER ===== -->
+  <div class="header">
+    <h1>GitHub <span>Profile Finder</span></h1>
+    <p class="subtitle">Search profiles, compare developers, explore languages</p>
+  </div>
+
+  <!-- ===== TABS: Single Search vs Compare ===== -->
+  <div class="tabs">
+    <button class="tab active" id="tab-single" onclick="switchTab('single')">
+      🔍 Search Profile
+    </button>
+    <button class="tab" id="tab-compare" onclick="switchTab('compare')">
+      ⚔️ Compare Two Users
+    </button>
+  </div>
+
+  <!-- ===== SINGLE SEARCH PANEL ===== -->
+  <div id="panel-single">
+
+    <!-- Search box -->
+    <div class="search-box">
+      <input type="text" id="username-input" placeholder="Enter GitHub username..." autocomplete="off" />
+      <button id="search-btn" onclick="doSearch()">Search</button>
+    </div>
+
+    <!-- Recent searches (filled by JS) -->
+    <div id="history-wrap" class="history-wrap"></div>
+
+    <!-- Result card goes here -->
+    <div id="result"></div>
+
+  </div>
+
+  <!-- ===== COMPARE PANEL ===== -->
+  <div id="panel-compare" style="display:none;">
+
+    <div class="compare-inputs">
+      <div class="search-box">
+        <input type="text" id="compare-input-1" placeholder="First username..." autocomplete="off"/>
+      </div>
+      <div class="vs-badge">VS</div>
+      <div class="search-box">
+        <input type="text" id="compare-input-2" placeholder="Second username..." autocomplete="off"/>
+      </div>
+    </div>
+    <button class="compare-btn" onclick="doCompare()">⚔️ Compare</button>
+
+    <!-- Compare result goes here -->
+    <div id="compare-result"></div>
+
+  </div>
+
+</div>
+<!-- end .container -->
+
+<script src="script.js"></script>
+</body>
+</html>
