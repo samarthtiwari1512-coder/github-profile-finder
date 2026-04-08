@@ -19,7 +19,8 @@ A web app to search GitHub profiles, explore repositories, compare developers si
 
 ## 📸 Screenshots
 
-> *(Add a screenshot here after you deploy — just drag an image into the GitHub editor)*
+<img width="1898" height="864" alt="image" src="https://github.com/user-attachments/assets/8bdfee72-9c2f-49c2-adcf-ea3de9483f7e" />
+
 
 ---
 
@@ -87,9 +88,9 @@ This project uses the free [GitHub REST API](https://docs.github.com/en/rest).
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@your_username](https://github.com/your_username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+
+- GitHub: [@your_username](https://github.com/samarthtiwari1512-coder)
+- LinkedIn: [your-linkedin](www.linkedin.com/in/samarth-tiwari-28546a28a)
 
 ---
 
